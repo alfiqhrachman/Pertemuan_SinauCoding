@@ -1,0 +1,68 @@
+/* body{
+    background: linear-gradient(
+        to bottom,
+        #ffa07a 0%,
+        #ffa07a 50%,
+        #add8e6 0%,
+        #add8e6 50%
+    );
+} */
+
+h1 {
+    font-variant: normal;
+    font-size: 32px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    text-align: center;
+    margin: 0;
+}
+
+p{
+    font-family: "Noto Sans", sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center;
+    margin: 0;
+  }
+
+#img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+}
+
+#html{
+    padding-top: 20px;
+    background: url(image/html.png);
+    background-repeat: repeat-y;
+    background-size: 230px;
+    background-position: left;
+    background-color: #ffa07a;
+    margin: 0;   
+}
+
+#css{
+    padding-top: 20px;
+    background: url(image/css.png);
+    background-repeat: repeat-y;
+    background-size: 230px;
+    background-position: right;
+    background-color: #add8e6;
+    margin: 0;
+}
+
+#js{
+    padding-top: 20px;
+    background: url(image/js.png);
+    background-repeat: repeat-y;
+    background-size: 230px;
+    background-position: left;
+    background-color: #fafad2;
+    margin: 0;
+}
+
+#rm{
+    text-decoration: underline;
+    font-weight: bold;
+}
