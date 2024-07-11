@@ -1,0 +1,185 @@
+body {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e6ecf0;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 100%; 
+}
+
+.left-side {
+    background-color:  #1E9CF1 ;
+    color: white;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+
+.left-side .content {
+    position: absolute;
+    top: 60px;
+    bottom: 20px;
+}
+
+.left-side h1 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.left-side p {
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.left-side h6 {
+    font-size: 7px;
+    font-weight: 400;
+}
+
+.left-side .illustration {
+    width: 200px; 
+    height: 200px;
+}
+
+.right-side {
+    background-color: white;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-box {
+    width: 70%;
+    max-width: 400px;
+}
+
+.login-header {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 7px;
+}
+
+.twitter-logo {
+    width: 20px;
+    height: 20px;
+}
+
+.login-header p {
+    font-size: 6px;
+    font-weight: 500;
+}
+
+.login-header a {
+    color:  #1E9CF1 ;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+h2 {
+    padding-top: 30px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form p {
+    font-size: 10px;
+    font-weight: 600;
+    color: #999;
+}
+
+form input {
+    height: 15px;
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 0px;
+    border-radius: 2px;
+    font-size: 7px;
+    background-color: rgb(233, 233, 233) ;
+}
+
+form .forgot-password {
+    align-self: flex-end;
+    color: black;
+    text-decoration: none;
+    font-size: 8px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+form button {
+    height: 30px;
+    background-color:  #1E9CF1 ;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: 7px;
+    font-weight: 0;
+}
+
+.alternative-login {
+    text-align: center;
+}
+
+.alternative-login p {
+    grid-template-columns: 1fr 1fr;
+    margin: 10px 0;
+    font-size: 8px;
+    font-weight: 500;
+    color: black;
+}
+
+.google-login, .apple-login {
+    display: inline-flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: 7px;
+    font-weight: 100;
+}
+
+.google-login {
+    width: 50%;
+    height: 25px;
+    background-color: white;
+    color: black;
+}
+
+.apple-login {
+    width: 50%;
+    height: 25px;
+    justify-content: left;
+    background-color: black;
+    color: white;
+    float: right;
+}
+
+.google-login img, .apple-login img{
+    width: 20px;
+    height: 10px;
+}
